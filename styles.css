@@ -33,3 +33,14 @@ html, body {
 .sub-title {
   font-size: 2rem;
 }
+
+/* Portrait */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .display-title {
+    font-size: 3em;
+  }
+ 
+  .sub-title {
+    font-size: 1em;
+  }
+}
